@@ -38,5 +38,6 @@ class Employee extends Person {
     public static void main(String[] args) {
         Employee emp = new Employee("John Doe", "1998-05-15", 27, "E123", 75000);
         emp.displayEmployeeDetails();
+        System.out.println("This is master branch.");
     }
 }
